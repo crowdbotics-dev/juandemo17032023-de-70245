@@ -1,5 +1,5 @@
 import axios from "axios"
-const alinePluginPublic = axios.create({
+const pluginPublic = axios.create({
   baseURL: "https://website.com/api",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
